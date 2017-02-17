@@ -20,9 +20,9 @@ Here's how we'll spend some time:
 - adding and committing
 - modify this document.
 - delete our master branch, because why not?
-- make a pull request.(this might inspire the aformentioned merge conflict) (oh, and re-add our master branch) 
-- checking out earlier commit.
-- Cleaning up
+- make a pull request.(this might inspire the aformentioned merge conflict) (oh, and re-add our master branch)
+- check out earlier commit, branch from it. AKA [kill your babies](https://en.wikipedia.org/wiki/Saturn_Devouring_His_Son).
+- Clean up. don't enter commands without understanding them.
 
 
 ## Make a new repo
@@ -254,6 +254,9 @@ Do not enter this command until you can explain _exactly_ what each portion of t
 
 You're done! Good work. Hope it was helpful. If it wasn't, why are you still reading this? You've got better things to do with your life than sit listening to someone ramble on about something that's not useful to you. Go! Live your life!
 
+To know what a terminal command means, use [tldr](https://github.com/tldr-pages/tldr). you'd then be able to type `tldr rm` and get something like this:
+
+![tldr rm](https://cl.ly/1N2t3H0F0m0b/1____turing_spikes_git_practice__bash_.jpg)
 
 
 ## Misc topics
