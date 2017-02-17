@@ -6,4 +6,4 @@ Make a pull request on this repo.
 
 Merge it in.
 
-Then, when you make the pull request, modify the README in the root directory to include your name at the bottom. 
+Then, when you make the pull request, modify the README in the root directory to include your name at the top in the appropriate place. 
