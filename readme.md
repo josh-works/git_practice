@@ -21,6 +21,7 @@ Here's how we'll spend some time:
 - modify this document.
 - delete our master branch, because why not?
 - make a pull request. (oh, and re-add our master branch)
+- checking out earlier commit.
 
 
 ### Make a new repo
@@ -224,6 +225,22 @@ Find the earliest one, and copy the string of random numbers to your clipboard.
 (protip - `j` or `spacebar` will move down the stuff printed to the screen. arrow keys might work too. hit `q` to exit it and get your terminal back.)
 
 type `git checkout 373aa65e13a7bfc2bc026efa49baf92d7e696dbd`
+
+you should see something like this:
+
+![git checkout old commit](https://cl.ly/0P1M3l0E273Q/1____turing_spikes_git_practice__bash__and_Slack_-_Turing.jpg)
+
+zomg this is cool. now run `git branch`
+
+You can see your current master and your old one. without changing anything, check each of them out a few times. run `ls` after each time. Do you see a change? Open up this markdown file in atom as you toggle between branches.
+
+whoa.
+
+run `git diff master temp_old_branch`. Should look crazy. don't stress about it.
+
+hit `q` to escape.
+
+
 
 
 ### Misc topics
