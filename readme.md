@@ -105,6 +105,29 @@ run `git status` again. should be green, saying "stuff ready to be committed..."
 
 commit it.
 
+run `git remote -v`. If you have anything in there named `origin`, remove it. Make sure the only results in `git remote -v` is something crazy. here's mine:
+
+![funky dance moves](https://cl.ly/1k1l1n1E2u3S/1____turing_spikes_git_practice__bash_.jpg)
+
+now, open up your repo in your browser. Should look pretty bare.
+
+back to the terminal:
+
+`git push funky_dance_moves master`
+
+suh-weet.
+
+now, we did all this stuff on the master branch, which is a no no. So, do it again.
+
+### Branching and adding and such
+
+checkout a new branch. name it something... distinctive.
+
+run `curl http://www.nosweatshakespeare.com/resources/shakespeare-insults/ -o insults.html`
+
+if you copied and pasted that command, note the spelling error. fix it.
+
+`cat` the file, take a peek. Cool, huh?
 
 
 
