@@ -103,7 +103,9 @@ use the instructions to track them untracked files. but don't commit them yet.
 
 run `git status` again. should be green, saying "stuff ready to be committed..."
 
-great. lets roll back these commits. instead of just deleting ohshitgit.html, though, we'll do it the git way:
+commit it.
+
+
 
 
 
