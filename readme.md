@@ -2,6 +2,14 @@
 
 We're gonna break some stuff, and have fun all the while.
 
+# Contributor Names
+
+_This section is begging for a merge conflict. So lets do it. (see "pull requests" below)_
+
+- Josh Thompson
+- your name here
+
+
 ## Order of operations
 
 Here's how we'll spend some time:
@@ -166,14 +174,48 @@ Ping the slack group when you're done.
 
 ### Pull Requests and Merging stuff
 
+CD out of your test git repo, and make another one that has the same name as the repo you're reading from right now.
 
+FORK my repo. Don't clone it, fork it. This will make a copy on your github profile. (Don't worry, you can delete it later)
 
+Clone the forked repo from YOUR profile to the new folder you just made that has its same name.
 
+use your adding remote skills to set it as your remote repo. something like
+
+`git remote add my_forked_copy <url_to_your_fork>` will do it.
+
+Now, add another remote pointing to MY copy!
+
+you can use this string exactly, but type it in yourself, except the URL:
+
+`git remote add joshs_repo git@github.com:josh-works/git_practice.git`
+
+run `git remote -v` and you'll see both. baller, right?
+
+now, checkout a new branch. something like `git checkout -b <myname_additions>` will do fine.
+
+`cd` into the `put_stuff_here` directory, read the readme, and follow the instructions.
+
+now, once you're happy, do `git push joshs_repo <my_branch_name>`
+
+open up my repo in the UI, and we'll walk through this pull request.
+
+You should see something like this:
+
+![pull request](https://cl.ly/392I3S1Q3b0C/josh-works_git_practice__a_repo_that_MUST_evolve_exclusively_with_outside_help_.jpg)
+
+follow the instructions to create a pull request.
+
+Let me know when you've done this. You're cruising.
+
+I'll stop here. If we cover all of this, I think we're doing OK.
 
 
 ### Misc topics
 
-- What happens when you `git commit` with no `-m`? What is this hellscape you see?
+- What happens when you `git commit` with no `-m`? What is this hellscape you see? nbd: it's vim, and hit `:q!` to escape and try again.
 - eff. How do I un-f**k this... [oh shit git](http://ohshitgit.com/)
 - Pretty terminal colors. What's up there? [quick-and-dirty git autocomplete](https://gist.github.com/josh-works/83fc75e684b4dd2d52b385a67ced4d9b)
 - that wasn't enough terminal stuff. Give me more. [here be dragons](https://gist.github.com/josh-works/7f2e6c82d22dca6e9fbc029c8b17703d)
+- ACK I `git init`'ed where I shouldn't have. ndb: `rm -rf .git`
+- Ack, I made changes on my `master` branch! nbd: `git stash`, `git co -b new_branch`, `git stash pop`.
