@@ -5,6 +5,13 @@ We're gonna break some stuff, and have fun all the while.
 ## Order of operations
 
 Here's how we'll spend some time:
+- repos. name them silly things.
+- remotes. Name them silly things.
+- change remote URLs, name them sillier things
+- branches. (make them dumb)
+- adding and committing
+- modify this document.
+- ohshitgit
 
 ### Make a new repo
 
@@ -75,3 +82,32 @@ Make five more. I kid you not. Five more.
 Once you have, take a screenshot of that part of your terminal, and post it to the #git_workflow channel in the turing slack.
 
 delete those branches. Git will let you. If it doesn't, figure out why. Post to the #git_workflow the command you're using to delete a branch.
+
+Deleted them? cool.
+
+Make a new one. You're actually gonna change this one. That leads us to...
+
+### Adding and Committing for Fun and Profit
+
+lets make some changes and see what happens there.
+
+run `curl http://ohshitgit.com/ -o ohshitgit.html`
+
+now `cat ohshitgit.html`
+
+You front-enders should be all over this. To my untrained eye it looks like cryptic and mysterious ... html.
+
+run `git status`. What do you see?
+
+use the instructions to track them untracked files.
+
+
+
+
+
+### Misc topics
+
+- What happens when you `git commit` with no `-m`? What is this hellscape you see?
+- eff. How do I un-f**k this... [oh shit git](http://ohshitgit.com/)
+- Pretty terminal colors. What's up there? [quick-and-dirty git autocomplete](https://gist.github.com/josh-works/83fc75e684b4dd2d52b385a67ced4d9b)
+- that wasn't enough terminal stuff. Give me more. [here be dragons](https://gist.github.com/josh-works/7f2e6c82d22dca6e9fbc029c8b17703d)
