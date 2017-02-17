@@ -36,12 +36,11 @@ lets clean up a bit. Run `git remote -v`. ugly and smelly, so clean that isht up
 
 `git remote rm origin`
 
-
 Are you seeing a pattern? "git remote" isn't anything special. It's just telling git "whatever comes next is related to remote things"
 
 and whatever comes _after_ "git remote" is just telling git what to do.
 
-> yo git, add something that I'm gonna call "smelly_socks", and here's the URL for that
+> yo git, add something that I'm gonna call "smelly_socks", and here's the URL for that: git@github.com:josh-works/git_practice.git
 
 Now, when you say "smelly socks", git knows what URL you're talking about.
 
@@ -55,4 +54,22 @@ so, I'd say:
 
 run `git remote -v` to make sure everything is as expected.
 
-Cool. Now, go to your git repo, and change its name. It'll change the URL. Knowing what we have now worked through above, can you fix your now-broken remote URL?
+Cool. Now, go to your git repo, and change its name (somewhere in "settings"). It'll change the URL. Knowing what we have now worked through above, can you fix your now-broken remote URL?
+
+### Branching
+
+run `git branch`
+
+what branches do you see?
+
+Probably just one. do `git checkout holy_snaps_its_a_branch`. what happens?
+
+Probably some sort of error. turns out you need a `-b` flag when making a new branch.
+
+try `git checkout -b holy_snaps_its_a_branch`. (Whoever reads this first - interrupt me and ask me about tab autocomplete for branches. Yeah, you. reading this right now.)
+
+run `git branch` again. Two branches, right? cool.
+
+Make five more. I kid you not. Five more.
+
+Once you have, take a screenshot of that part of your terminal, and post it to the #git_workflow channel in the turing slack. 
