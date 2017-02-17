@@ -17,8 +17,7 @@ Here's how we'll spend some time:
 - remotes. Name them silly things.
 - change remote URLs, name them sillier things
 - branches. (make them dumb)
-- adding and committing
-- modify this document.
+- add and committing
 - delete our master branch, because why not?
 - make a pull request.(this might inspire the aformentioned merge conflict) (oh, and re-add our master branch)
 - check out earlier commit, branch from it. AKA [kill your babies](https://en.wikipedia.org/wiki/Saturn_Devouring_His_Son).
