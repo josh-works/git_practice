@@ -72,4 +72,6 @@ run `git branch` again. Two branches, right? cool.
 
 Make five more. I kid you not. Five more.
 
-Once you have, take a screenshot of that part of your terminal, and post it to the #git_workflow channel in the turing slack. 
+Once you have, take a screenshot of that part of your terminal, and post it to the #git_workflow channel in the turing slack.
+
+delete those branches. Git will let you. If it doesn't, figure out why. Post to the #git_workflow the command you're using to delete a branch.
