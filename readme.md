@@ -189,7 +189,7 @@ use your adding remote skills to set it as your remote repo. something like
 
 Now, add another remote pointing to MY copy!
 
-you can use this string exactly, but type it in yourself, except the URL:
+you can use this string exactly, but type it in yourself:
 
 `git remote add joshs_repo git@github.com:josh-works/git_practice.git`
 
