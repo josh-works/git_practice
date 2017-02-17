@@ -26,13 +26,17 @@ Here's how we'll spend some time:
 
 ## Make a new repo
 
-Make a new repo with a sorta awkward name. Perhaps _because_josh_said_so_ or something like that.
+Make a new repo inside of Github.com with a sorta awkward name. Perhaps _because_josh_said_so_ or something like that.
 
 `mkdir` a new folder on your computer for it to live in. Please know that you'll delete this folder at the end of today.
 
 `cd` into that folder, and `git init`.
 
 run `git remote add origin <your_url>`
+
+make a file, save it, add it, and commit it. Once there's a file in the directory, git might behave more predictably.
+
+`curl turing.io -o turing.html` will give you something to work with.
 
 ## Awkward Remote Names
 
@@ -74,6 +78,10 @@ run `git remote -v` to make sure everything is as expected.
 
 Cool. Now, go to your git repo, and change its name (somewhere in "settings"). It'll change the URL. Knowing what we have now worked through above, can you fix your now-broken remote URL?
 
+(hint: besides just adding and removing remotes with `git remote rm/add`, there's also a `git remote set-url` that [takes two arguments](https://help.github.com/articles/changing-a-remote-s-url/). )
+
+Obviously we've seen repos called "origin", or "upstream", or other things like that. There's git _conventions_ for naming repos and branches, just like there's ruby _conventions_ that you shouldn't make `MyCamelCaseVariable`. So, make sure to use _good_ names usually. But by now you should know what "origin" means in `git push origin master`.
+
 ## Branching
 
 run `git branch`
@@ -84,7 +92,7 @@ Probably just one. do `git checkout holy_snaps_its_a_branch`. what happens?
 
 Probably some sort of error. turns out you need a `-b` flag when making a new branch.
 
-try `git checkout -b holy_snaps_its_a_branch`. (Whoever reads this first - interrupt me and ask me about tab autocomplete for branches. Yeah, you. reading this right now.)
+try `git checkout -b holy_snaps_its_a_branch`. (Whoever reads this first - interrupt me and ask me about tab autocomplete for branches. Yeah, you. reading this right now... then go read [this](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion)
 
 run `git branch` again. Two branches, right? cool.
 
@@ -164,7 +172,7 @@ Your master branch might still be there. let's _really_ delete it.
 
 hm... I cannot figure out how to delete that branch from the command line.
 
-nbd.
+you might be able to bring it back with `git checkout master`. try it.
 
 Finish this out by creating a master branch again, checking it out, and using `git merge <crazy_branch_name> master`
 
@@ -178,7 +186,7 @@ Ping the slack group when you're done.
 
 CD out of your test git repo, and make another one that has the same name as the repo you're reading from right now.
 
-FORK my repo. Don't clone it, fork it. This will make a copy on your github profile. (Don't worry, you can delete it later)
+OK. Fork [this repo](https://github.com/josh-works/git_practice). Don't clone it, fork it. This will make a copy on your github profile. (Don't worry, you can delete it later)
 
 Clone the forked repo from YOUR profile to the new folder you just made that has its same name.
 
@@ -198,7 +206,7 @@ now, checkout a new branch. something like `git checkout -b <myname_additions>` 
 
 `cd` into the `put_stuff_here` directory, read the readme, and follow the instructions.
 
-now, once you're happy, do `git push joshs_repo <my_branch_name>`
+now, once you're happy, push your branch to your forked copy of my repo, then open up my repo in the github ui. Submit a pull request.
 
 open up my repo in the UI, and we'll walk through this pull request.
 
