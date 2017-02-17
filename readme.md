@@ -24,7 +24,7 @@ Here's how we'll spend some time:
 - checking out earlier commit.
 
 
-### Make a new repo
+## Make a new repo
 
 Make a new repo with a sorta awkward name. Perhaps _because_josh_said_so_ or something like that.
 
@@ -34,7 +34,7 @@ Make a new repo with a sorta awkward name. Perhaps _because_josh_said_so_ or som
 
 run `git remote add origin <your_url>`
 
-### Awkward Remote Names
+## Awkward Remote Names
 
 next, run `git remote add smelly_socks <your_url>`
 
@@ -62,7 +62,7 @@ and whatever comes _after_ "git remote" is just telling git what to do.
 
 Now, when you say "smelly socks", git knows what URL you're talking about.
 
-### Change remote URLs
+## Change remote URLs
 
 OK, more. re-add your origin URL, but don't call it origin. call it `<yourname_origin>`
 
@@ -74,7 +74,7 @@ run `git remote -v` to make sure everything is as expected.
 
 Cool. Now, go to your git repo, and change its name (somewhere in "settings"). It'll change the URL. Knowing what we have now worked through above, can you fix your now-broken remote URL?
 
-### Branching
+## Branching
 
 run `git branch`
 
@@ -98,7 +98,7 @@ Deleted them? cool.
 
 Make a new one. You're actually gonna change this one. That leads us to...
 
-### Adding and Committing for Fun and Profit
+## Adding and Committing for Fun and Profit
 
 lets make some changes and see what happens there.
 
@@ -130,7 +130,7 @@ suh-weet.
 
 now, we did all this stuff on the master branch, which is a no no. So, do it again.
 
-### Deleting your master branch
+## Deleting your master branch
 
 checkout a new branch. name it something... distinctive.
 
@@ -174,7 +174,7 @@ Fix your remotes too. rename your repo to `origin`, and delete the other name.
 
 Ping the slack group when you're done.
 
-### Pull Requests and Merging stuff
+## Pull Requests and Merging stuff
 
 CD out of your test git repo, and make another one that has the same name as the repo you're reading from right now.
 
@@ -243,7 +243,7 @@ hit `q` to escape.
 
 
 
-### Misc topics
+## Misc topics
 
 - What happens when you `git commit` with no `-m`? What is this hellscape you see? nbd: it's vim, and hit `:q!` to escape and try again.
 - eff. How do I un-f**k this... [oh shit git](http://ohshitgit.com/)
