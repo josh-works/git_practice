@@ -20,7 +20,7 @@ Here's how we'll spend some time:
 - adding and committing
 - modify this document.
 - delete our master branch, because why not?
-- ohshitgit
+- make a pull request. (oh, and re-add our master branch)
 
 ### Make a new repo
 
