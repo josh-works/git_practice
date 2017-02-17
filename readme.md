@@ -11,6 +11,7 @@ Here's how we'll spend some time:
 - branches. (make them dumb)
 - adding and committing
 - modify this document.
+- delete our master branch, because why not?
 - ohshitgit
 
 ### Make a new repo
@@ -119,7 +120,7 @@ suh-weet.
 
 now, we did all this stuff on the master branch, which is a no no. So, do it again.
 
-### Branching and adding and such
+### Deleting your master branch
 
 checkout a new branch. name it something... distinctive.
 
@@ -129,7 +130,33 @@ if you copied and pasted that command, note the spelling error. fix it.
 
 `cat` the file, take a peek. Cool, huh?
 
+add and commit this stuff. check your repo online. do you see any of these changes?
 
+prob not. back to the terminal:
+
+do something exciting:
+
+`git br -d master`
+
+You just deleted your master branch. lolz. I'm writing and making this up as I go. It would be awkward if this wasn't fixable, huh?
+
+`git push <your_crazy_remote_name> <your_current_branch_name>`
+
+Here's what I entered:
+
+`git push funky_dance_moves new-branchy-branch`
+
+checkout your repo. anything interesting?
+
+Your master branch might still be there. let's _really_ delete it.
+
+`git branch -a` => shows remote branches. (Think of `-a` as "all")
+
+hm... I cannot figure out how to delete that branch from the command line.
+
+nbd.
+
+### Pull Requests and Merging stuff
 
 
 
