@@ -156,6 +156,14 @@ hm... I cannot figure out how to delete that branch from the command line.
 
 nbd.
 
+Finish this out by creating a master branch again, checking it out, and using `git merge <crazy_branch_name> master`
+
+Then delete all the non-master branches.
+
+Fix your remotes too. rename your repo to `origin`, and delete the other name.
+
+Ping the slack group when you're done.
+
 ### Pull Requests and Merging stuff
 
 
