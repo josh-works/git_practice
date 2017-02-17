@@ -20,7 +20,7 @@ Here's how we'll spend some time:
 - adding and committing
 - modify this document.
 - delete our master branch, because why not?
-- make a pull request. (oh, and re-add our master branch) (this might inspire the aformentioned merge conflict)
+- make a pull request.(this might inspire the aformentioned merge conflict) (oh, and re-add our master branch) 
 - checking out earlier commit.
 - Cleaning up
 
