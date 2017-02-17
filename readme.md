@@ -209,7 +209,21 @@ follow the instructions to create a pull request.
 
 Let me know when you've done this. You're cruising.
 
-I'll stop here. If we cover all of this, I think we're doing OK.
+# Slightly more advanced things
+
+By this point, you should be good with remotes and branching. That's kinda the bread-and-butter of your daily usage of git.
+
+But, you'll want to make changes sometimes, or check out earlier versions of your project, right?
+
+lets stage the project like this:
+
+in this repo that you've forked, run `git log`. you'll get a long list of commits that I've made.
+
+Find the earliest one, and copy the string of random numbers to your clipboard.
+
+(protip - `j` or `spacebar` will move down the stuff printed to the screen. arrow keys might work too. hit `q` to exit it and get your terminal back.)
+
+type `git checkout 373aa65e13a7bfc2bc026efa49baf92d7e696dbd`
 
 
 ### Misc topics
