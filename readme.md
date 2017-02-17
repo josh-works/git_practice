@@ -22,6 +22,7 @@ Here's how we'll spend some time:
 - delete our master branch, because why not?
 - make a pull request. (oh, and re-add our master branch) (this might inspire the aformentioned merge conflict)
 - checking out earlier commit.
+- Cleaning up
 
 
 ## Make a new repo
@@ -240,6 +241,18 @@ run `git diff master temp_old_branch`. Should look crazy. don't stress about it.
 
 hit `q` to escape.
 
+
+## Clean up
+
+OK, you've got to clean up your git profile, and your computer.
+
+in the settings for the repo you made and the one you forked, delete them.
+
+Then, CD into the directory one level _above_ the directories we've been working in, and remove them. try `rm <directory_name>`. it won't work. In the #git_workflow slack channel, let us know what you're gonna enter to remove these directories, and _explain both of the required flags_.
+
+Do not enter this command until you can explain _exactly_ what each portion of the command does.
+
+You're done! Good work. Hope it was helpful. If it wasn't, why are you still reading this? You've got better things to do with your life than sit listening to someone ramble on about something that's not useful to you. Go! Live your life!
 
 
 
